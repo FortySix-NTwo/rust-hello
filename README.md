@@ -81,6 +81,16 @@ cargo build
 
 You’ll see that running this command created a new file for us, Cargo.lock. This file is a log of the exact versions of the dependencies we are using locally.
 
+## Step 3
+
+Run the application by typing the following into the terminal
+
+```bash
+cargo run
+```
+
+and wait for the magic 🎩
+
 ### VSCode Extension
 
 we can install a rust-lang vscode extension at the following link
