@@ -3,7 +3,7 @@ use std::io::{stdout, BufWriter};
 
 fn main() {
     let stdout = stdout();
-    let message = String::from("Congratulation on Running your first Rust Application!!!");
+    let message = String::from("Congratulation on your first Rust Application!!!");
     let width = message.chars().count();
 
     let mut writer = BufWriter::new(stdout.lock());
